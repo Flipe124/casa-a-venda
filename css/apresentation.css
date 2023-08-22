@@ -1,4 +1,8 @@
+.apresentation-img {
+    text-align: center;
+}
+
 .apresentation img{
-    width: 100%;
+    width: 70%;
     /* background-image: url("../img/apresentation-img.png"); */
 }
