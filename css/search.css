@@ -1,0 +1,15 @@
+select {
+    padding: 10px;
+}
+
+.search {
+    background-color: #23b496;
+    padding: 10px;
+}
+
+.button-search {
+    padding: 12px 24px;
+    background-color: gray;
+    color: white;
+    border: 1px;
+}
