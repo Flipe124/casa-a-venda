@@ -1,5 +1,5 @@
 nav {
-    background-color: #FAF0E6;
+    background-color: #23b496;
     display: flex;
     align-items: center;
     padding: 20px;
@@ -17,7 +17,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #696969;
+    color: #ffffff;
     font-weight: 600;
 }
 
