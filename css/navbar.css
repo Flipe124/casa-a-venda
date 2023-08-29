@@ -6,6 +6,9 @@ nav {
 
     position: fixed;
     width: 100%;
+
+    background-color: rgba(51, 194, 99, 0.7);
+    backdrop-filter: blur(10px);
 }
 
 nav .link {

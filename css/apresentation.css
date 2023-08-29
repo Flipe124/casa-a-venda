@@ -4,5 +4,7 @@
 
 .apresentation img{
     width: 100%;
+    margin: 0;
+    padding: 0;
     /* background-image: url("../img/apresentation-img.png"); */
 }
