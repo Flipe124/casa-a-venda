@@ -16,6 +16,43 @@ body {
     padding-right: 10%;
 }
 
+.scroll-animation {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(7, 8, 8);
+    position: relative;
+    /* top: -130px; */
+    animation: myfirst 1S linear 2s infinite alternate;
+    /* top: 300%; */
+}
+
+@keyframes myfirst {
+    0% {
+        left: 0px;
+        top: -130px;
+    }
+
+    25% {
+        left: 0px;
+        top: 5px;
+    }
+
+    50% {
+        left: 0px;
+        top: 10px;
+    }
+
+    75% {
+        left: 0px;
+        top: 15px;
+    }
+
+    100% {
+        left: 0px;
+        top: 20px;
+    }
+}
+
 @media screen and (width < 768px) {
     .container {
         padding-left: 1%;
