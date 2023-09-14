@@ -7,8 +7,9 @@
 body {
     /* background-color: #F9FAFE; */
     /* background-image: url("../img/bairro-residencial-moderno-com-telhado-verde-e-varanda-gerado-por-ia.jpg"); */
-    background-repeat: no-repeat;
-    width: 100%;
+    /* background-repeat: no-repeat; */
+    /* width: 100%; */
+    background-color: #f5fffa;
 }
 
 .container {
@@ -18,12 +19,30 @@ body {
 
 .scroll-animation {
     text-align: center;
-    font-size: 30px;
-    color: rgb(7, 8, 8);
+    font-size: 40px;
+    color: rgb(255, 255, 255);
     position: relative;
     /* top: -130px; */
-    animation: myfirst 1S linear 2s infinite alternate;
+    animation: myfirst 1.5S linear 0.5s infinite alternate;
     /* top: 300%; */
+}
+
+.overflow {
+    height: 1300px;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.74);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #727165;
+    /* border-radius: px; */
+    /* border: 0px solid rgba(255, 255, 255, 0.74); */
 }
 
 @keyframes myfirst {
@@ -34,22 +53,22 @@ body {
 
     25% {
         left: 0px;
-        top: 5px;
+        top: -125px;
     }
 
     50% {
         left: 0px;
-        top: 10px;
+        top: -120px;
     }
 
     75% {
         left: 0px;
-        top: 15px;
+        top: -115px;
     }
 
     100% {
         left: 0px;
-        top: 20px;
+        top: -110px;
     }
 }
 
