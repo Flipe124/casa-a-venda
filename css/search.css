@@ -6,7 +6,12 @@ select {
     background-color: #23b496;
     padding: 10px;
     position: relative;
-    top: 110px;
+    margin-top: 40%;
+}
+.search select {
+    background-color: transparent;
+    color: white;
+    border: 1px white;
 }
 
 .button-search {
