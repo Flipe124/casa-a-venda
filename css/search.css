@@ -3,20 +3,21 @@ select {
 }
 
 .search {
-    background-color: #23b496;
+    background-color: rgb(247, 246, 244, 74%);
+    backdrop-filter: blur(10px);
     padding: 10px;
     position: relative;
     margin-top: 40%;
 }
 .search select {
     background-color: transparent;
-    color: white;
-    border: 1px white;
+    color: #211b15;;
+    border: 1px solid #211b15;
 }
 
 .button-search {
     padding: 12px 24px;
-    background-color: gray;
+    background-color: #1919e6;
     color: white;
     border: 1px;
 }
