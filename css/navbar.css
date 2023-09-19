@@ -36,7 +36,7 @@ nav li a {
 }
 
 nav li a:hover {
-    /* color: #d0d0d0; */
+    color: gray;
     transition: 0.3s;
     padding-bottom: 5px;
     border-bottom: 1px #211b15 solid;
