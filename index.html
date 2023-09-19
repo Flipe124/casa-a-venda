@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casa a venda</title>
+    <link rel="shortcut  icon" type="imagem/png" href="./img/Black Grey Minimalist Real Estate Logo (2).png" />
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/apresentation.css">
@@ -14,7 +15,8 @@
 <body>
     <nav class="container">
         <a class="logo" href="">
-            <img src="./img/Black Grey Minimalist Real Estate Logo (2).png" alt="" style="width: 40px; border-radius: 6px;">
+            <img src="./img/Black Grey Minimalist Real Estate Logo (2).png" alt=""
+                style="width: 40px; border-radius: 6px;">
             <!-- <i class="fa-solid fa-house-chimney-window fa-2xl"></i> -->
             <!-- <span>CAV</span> -->
         </a>
@@ -32,7 +34,8 @@
     </nav>
     <section class="container apresentation">
         <span class="apresentation-img">
-            <img src="./img/foto-de-baixo-angulo-da-fachada-de-um-edificio-moderno-branco-sob-um-ceu-azul-claro.jpg" alt="">
+            <img src="./img/foto-de-baixo-angulo-da-fachada-de-um-edificio-moderno-branco-sob-um-ceu-azul-claro.jpg"
+                alt="">
         </span>
         <!-- <span class="">
             <p>Casa a Venda</p>
@@ -43,24 +46,48 @@
     </section>
     <main class="container">
         <section class="search">
-            <select name="" id="city">
-                <option value="">São Paulo</option>
-                <option value="">Curitiba</option>
-            </select>
-            <select name="" id="">
-                <option value="">Comprar</option>
-                <option value="">Alugar</option>
-            </select>
-            <select name="" id="">
-                <option value="">R$ 100.000,00</option>
-                <option value="">R$ 200.000,00</option>
-                <option value="">R$ 300.000,00</option>
-                <option value="">R$ 400.000,00</option>
-            </select>
+            <div class="input-city input-search">
+                <label for="city">Cidade:</label>
+                <div class="select-wrapper">
+                    <select name="" id="city">
+                        <option value="">São Paulo</option>
+                        <option value="">Curitiba</option>
+                    </select>
+                </div>
+            </div>
+            <div class="input-type input-search">
+                <label for="type">Tipo:</label>
+                <div class="select-wrapper">
+                    <select name="" id="type">
+                        <option value="">Comprar</option>
+                        <option value="">Alugar</option>
+                    </select>
+                </div>
+            </div>
+            <div class="input-value input-search">
+                <label for="value">Valor:</label>
+                <div class="select-wrapper">
+                    <select name="" id="value">
+                        <option value="">R$ 100.000,00</option>
+                        <option value="">R$ 200.000,00</option>
+                        <option value="">R$ 300.000,00</option>
+                        <option value="">R$ 400.000,00</option>
+                    </select>
+                </div>
+            </div>
             <span>
                 <button type="button" class="button-search">BUSCAR</button>
             </span>
         </section>
+        <!-- <section style="background-color: aqua;">
+            teste
+        </section> -->
+        <!-- <section class="container apresentationn">
+            <span class="apresentation-img">
+                <img src="./img/foto-de-baixo-angulo-da-fachada-de-um-edificio-moderno-branco-sob-um-ceu-azul-claro.jpg"
+                    alt="">
+            </span>
+        </section> -->
     </main>
     <section class="overflow">
 
