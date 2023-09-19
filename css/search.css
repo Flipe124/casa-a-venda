@@ -9,15 +9,38 @@ select {
     position: relative;
     margin-top: 40%;
 }
+
 .search select {
     background-color: transparent;
     color: #211b15;;
-    border: 1px solid #211b15;
+    border: 1px solid gray;
 }
 
 .button-search {
     padding: 12px 24px;
+    /* background-color: #1919e6; */
+    color: #1919e6;
+    border: 1px #1919e6 solid;
+    cursor: pointer;
+}
+
+.button-search:hover {
     background-color: #1919e6;
     color: white;
-    border: 1px;
+    transition: 0.3s;
+}
+
+
+.input-search {
+    display: inline-block;
+}
+
+.select-wrapper {
+    display: inline-block;
+    position: relative;
+}
+
+.input-search label{
+    display: block;
+    margin-bottom: 5px;
 }
