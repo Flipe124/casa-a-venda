@@ -18,9 +18,9 @@ select {
 
 .button-search {
     padding: 12px 24px;
-    /* background-color: #1919e6; */
-    color: #1919e6;
-    border: 1px #1919e6 solid;
+    background-color: #211b15;
+    color: white;
+    border: 1px #211b15 solid;
     cursor: pointer;
 }
 
